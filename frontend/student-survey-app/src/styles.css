@@ -1,0 +1,101 @@
+/* Global styles for Student Survey Application */
+/* George Mason University Color Palette */
+
+:root {
+  --gmu-green: #006633;
+  --gmu-gold: #FFCC33;
+  --gmu-dark-green: #004d26;
+  --gmu-light-green: #e8f5e9;
+  --text-dark: #333333;
+  --text-light: #666666;
+  --border-color: #dee2e6;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+/* Custom button styles with GMU colors */
+.btn-primary {
+  background-color: var(--gmu-green);
+  border-color: var(--gmu-green);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: var(--gmu-dark-green);
+  border-color: var(--gmu-dark-green);
+}
+
+.btn-secondary {
+  background-color: var(--gmu-gold);
+  border-color: var(--gmu-gold);
+  color: var(--text-dark);
+}
+
+.btn-secondary:hover {
+  background-color: #e6b82e;
+  border-color: #e6b82e;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: var(--gmu-green);
+  color: var(--white);
+  font-weight: 600;
+  border-bottom: 2px solid var(--gmu-dark-green);
+}
+
+/* Table styling */
+.table thead {
+  background-color: var(--gmu-green);
+  color: var(--white);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: var(--gmu-light-green);
+}
+
+/* Form control focus */
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--gmu-green);
+  box-shadow: 0 0 0 0.2rem rgba(0, 102, 51, 0.25);
+}
+
+/* Link styling */
+a {
+  color: var(--gmu-green);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--gmu-dark-green);
+  text-decoration: underline;
+}
+
+/* Navbar customization */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Clean and minimal spacing */
+.container {
+  max-width: 1200px;
+}

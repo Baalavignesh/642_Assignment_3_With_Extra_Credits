@@ -4,8 +4,8 @@ A full-stack student survey management system built with Angular 18 (frontend) a
 
 ## Team Members
 
-- Baalavignesh Arunachalam - G01486574
-- Pranav Arya -
+- Baalavignesh Arunachalam - G01486574 - barunac@gmu.edu
+- Pranav Arya - G01513979 - paryasom@gmu.edu
 
 ## Project Overview
 
@@ -197,35 +197,6 @@ After initial setup, follow these steps each time:
 │
 └── README.md                        # This file
 ```
-
-## Design Features
-
-- George Mason University color palette (Green #006633, Gold #FFCC33)
-- Clean, minimal design without excessive animations
-- Responsive layout using Bootstrap
-- Form validation with real-time error messages
-- User confirmation dialogs for delete operations
-
-## Testing
-
-1. Navigate to `http://localhost:4200`
-2. Click "Take Survey" to fill out a new survey
-3. Submit the form
-4. Click "View Surveys" to see all surveys
-5. Use "Edit" button to update a survey
-6. Use "Delete" button to remove a survey
-
-## Stopping the Application
-
-Press `Ctrl + C` in both terminal windows (backend and frontend) to stop the applications.
-
-## Notes
-
-- Backend runs on port 8080
-- Frontend runs on port 4200
-- MySQL default credentials: root/root (update in application.properties)
-- Tables are automatically created by Hibernate
-- All source files include descriptive comments
 
 ---
 

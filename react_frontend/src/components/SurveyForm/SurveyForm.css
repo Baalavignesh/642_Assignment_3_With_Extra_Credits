@@ -1,0 +1,14 @@
+.form-label {
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.form-check-label {
+  color: var(--text-dark);
+}
+
+h6 {
+  color: var(--gmu-green);
+  font-weight: 600;
+}
+

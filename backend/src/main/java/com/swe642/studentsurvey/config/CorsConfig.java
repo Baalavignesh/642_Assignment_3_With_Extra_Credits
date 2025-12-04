@@ -11,6 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * - localhost:4200 (Angular default port)
  * - localhost:5173 (React/Vite default port)
  * - localhost:5174 (React/Vite alternative port)
+ * - localhost:5175 (React/Vite alternative port)
  */
 @Configuration
 public class CorsConfig {
@@ -24,7 +25,8 @@ public class CorsConfig {
                         .allowedOrigins(
                             "http://localhost:4200",  // Angular
                             "http://localhost:5173",  // React (Vite default)
-                            "http://localhost:5174"   // React (Vite alternative)
+                            "http://localhost:5174",  // React (Vite alternative)
+                            "http://localhost:5175"   // React (Vite alternative)
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")

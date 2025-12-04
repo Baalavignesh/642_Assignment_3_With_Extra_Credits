@@ -67,15 +67,15 @@ http://localhost:5173
 
 ---
 
-## 🎨 Features to Highlight
+## Features to Highlight
 
-- ✅ GMU Green and Gold color scheme
-- ✅ Bootstrap 5 responsive design
-- ✅ Form validation with error messages
-- ✅ Loading spinners
-- ✅ Success/error alerts
-- ✅ Confirmation dialogs
-- ✅ Card hover effects
+-  GMU Green and Gold color scheme
+-  Bootstrap 5 responsive design
+-  Form validation with error messages
+-  Loading spinners
+-  Success/error alerts
+-  Confirmation dialogs
+-  Card hover effects
 
 ---
 
@@ -148,86 +148,4 @@ react_frontend/
 ```
 
 ---
-
-## 💡 Tips for Demo/Video
-
-1. **Show Home Page** - Explain the two navigation options
-2. **Create a Survey** - Fill form, show validation errors, submit successfully
-3. **View Survey List** - Show the table with all surveys
-4. **Edit a Survey** - Click edit, modify data, update
-5. **Delete a Survey** - Click delete, confirm, show it's removed
-6. **Highlight React Code** - Open SurveyForm.jsx and show:
-   - useState for state management
-   - useEffect for data loading
-   - Controlled components
-   - Form validation
-7. **Show Service Layer** - Open surveyService.js to show API calls
-8. **Explain Routing** - Open App.jsx to show React Router setup
-9. **Show Styling** - Demonstrate GMU colors, responsive design
-
----
-
-## 🎬 Video Recording Suggestions
-
-### Introduction (1 min)
-- Explain the project: React conversion of Angular app
-- Show the project structure
-
-### Running the App (2 min)
-- Start backend
-- Start frontend
-- Navigate to home page
-
-### Feature Demonstration (5 min)
-- Create a survey (show validation)
-- View survey list
-- Edit a survey
-- Delete a survey
-
-### Code Walkthrough (5 min)
-- Show key React concepts:
-  - Home component (simple functional component)
-  - SurveyForm component (useState, useEffect, form handling)
-  - SurveyList component (list rendering, async operations)
-  - surveyService (API integration)
-  - App.jsx (routing)
-
-### Design & Styling (2 min)
-- Show GMU colors in index.css
-- Demonstrate responsive design
-- Show Bootstrap integration
-
-### Conclusion (1 min)
-- Summary of React concepts used
-- Comparison with Angular version
-- Thank you
-
-**Total Duration: ~15 minutes**
-
----
-
-## 📚 Documentation Files
-
-1. **README.md** - Setup and basic information
-2. **IMPLEMENTATION_DOCUMENTATION.md** - Comprehensive technical documentation
-3. **QUICK_START_GUIDE.md** - This file
-
----
-
-## 🎓 Submission Checklist
-
-- [ ] React application runs successfully
-- [ ] Backend Spring Boot API works
-- [ ] All CRUD operations functional
-- [ ] Form validation working
-- [ ] Responsive design verified
-- [ ] GMU color scheme applied
-- [ ] Documentation complete
-- [ ] Video recorded
-- [ ] Code commented
-- [ ] README files included
-
----
-
-**Happy Coding! 🚀**
 
